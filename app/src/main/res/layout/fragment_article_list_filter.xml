@@ -1,0 +1,112 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.example.ahtt_vp_feminin.NYTArticleSearch.fragments.ArticleListFilterFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="begin_date"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_marginLeft="22dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/etDate"
+        />
+
+    <TextView
+        android:text="sort order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etDate"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/textView2" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignLeft="@+id/etDate"
+        android:layout_alignStart="@+id/etDate"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:id="@+id/spinner" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="41dp"
+        android:id="@+id/textView3"
+        android:text="news desk values"
+        tools:minLines="2"
+        android:maxLines="2"
+        />
+
+    <CheckBox
+        android:text="Arts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cbArts"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_toRightOf="@+id/textView3"
+        android:layout_toEndOf="@+id/textView3" />
+
+    <CheckBox
+        android:text="fashionstyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cbFashion"
+        android:layout_below="@+id/cbArts"
+        android:layout_alignLeft="@+id/cbArts"
+        android:layout_alignStart="@+id/cbArts" />
+
+    <CheckBox
+        android:text="Sports"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cbSports"
+        android:layout_below="@+id/cbFashion"
+        android:layout_alignLeft="@+id/cbFashion"
+        android:layout_alignStart="@+id/cbFashion" />
+
+    <Button
+        android:text="Save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cbSports"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPurpleHeart"
+        android:textColor="@color/colorWhisper"
+        android:layout_marginTop="52dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/button" />
+
+
+</RelativeLayout>

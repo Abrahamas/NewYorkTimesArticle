@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/labadmin/AndroidStudioProjects/NYTArticleSearch/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/labadmin/AndroidStudioProjects/NYTArticleSearch/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_7f97b22c9e584649eadfdc182436a5dcf026612d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/labadmin/AndroidStudioProjects/NYTArticleSearch/app/libs/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/labadmin/AndroidStudioProjects/NYTArticleSearch/app/build/intermediates/transforms/dex/debug/folders/1000/2/picasso-2.5.2_4998a8f10250255e89459f0f88b5c20a04915ab7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/labadmin/AndroidStudioProjects/NYTArticleSearch/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="1030fd9c42ec0d7e0ed5f43cdcdd24d3b8d9ba42">
+        <dex dex="/Users/labadmin/AndroidStudioProjects/NYTArticleSearch/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_6245e2018ab0bfc24b2a9c482967950c0a074cf2/classes.dex" />
+    </item>
+
+</items>
